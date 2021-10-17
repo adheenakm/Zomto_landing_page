@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--importing font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <div class="nav_brand">
+                <img src="./assets/logo.png" alt="logo" class="brand_logo">
+            </div>
+            <div class="nav_button">
+                <button class="primary_button">Order Food</button>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <section class="hero_container">
+            
+            <div class="hero_image_container">
+                <img src="./assets/hero.jpg" alt="hero image" class="hero_image">
+                <img src="./assets/svg/heroShape.svg" alt="hero shape" class="hero_image_shape">
+                <img src="./assets/svg/herobgpattren.svg" alt="hero bg" class="hero_image_bg">
+            </div>
+
+            <div class="hero_discription">
+                <h1 class="text_heading">Order food from favourite restaurants near you.</h1>
+                <button class="primary_button">Order Now</button>
+            </div>           
+
+        </section>
+        
+        <section class="video_footage_container">
+            <div class="video_footage">
+                <iframe 
+                src="https://player.vimeo.com/video/338947907?h=faf130875c&color=f7f7f7&title=0&byline=0&portrait=0" 
+                width="640" 
+                height="360" 
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowfullscreen
+                class="chef_video">
+                </iframe>
+            </div>
+            <div class="video_footage_text">
+                <p>
+                    Your food will be prepared safely with an experienced chef, without
+                    compromising on the quality and hygiene.
+                </p>
+            </div>
+        </section>
+
+        <section class="food_list_container">
+            <h1 class="text_heading" style="text-align: center;">Explore Our Menu</h1>
+
+            <div class="food_list_container_diagonal"></div>
+
+            <div class="food_menu_card_list">
+                <!--card1-->
+                <div class="food_menu_card">
+                    <img src="./assets/burger.jpg" class="food_menu_card_image">
+                    <div class="food_menu_card_description">
+                        <h4 class="food_menu_card_title">Burgers</h4>
+                        <p class="food_menu_card_restaurants">Burger King, Mcdonalds, Burger Place <span style="color: red;">+3</span></p>
+                    </div>
+                </div>
+
+                 <!--card2-->
+                <div class="food_menu_card ">
+                    <img src="./assets/pizza.jpg" class="food_menu_card_image">
+                    <div class="food_menu_card_description">
+                        <h4 class="food_menu_card_title">Pizza</h4>
+                        <p class="food_menu_card_restaurants">Burger King, Mcdonalds, Burger Place <span style="color: red;">+3</span></p>
+                    </div>
+                </div>
+
+                <div class="food_menu_card">
+                    <img src="./assets/iceCream.jpg" class="food_menu_card_image">
+                    <div class="food_menu_card_description">
+                        <h4 class="food_menu_card_title">IceCream</h4>
+                        <p class="food_menu_card_restaurants">Burger King, Mcdonalds, Burger Place <span style="color: red;">+3</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="restaurant_list_container">
+            <div class="restaurant_list_text">
+                <h1 class="text_heading">Order from 100s of restaurants</h1>
+            </div>
+
+            <div class="restaurant_list_image_container">
+                <div class="restaurant_list_row_1">
+                    <img
+                    src="./assets/restaurant1.jpg"
+                    class="restaurant1"
+                    alt="restaurant1"
+                  />
+                  <img
+                    src="./assets/restaurant2.jpg"
+                    class="restaurant2"
+                    alt="restaurant2"
+                  />
+                </div>
+                <div class="restaurant_list_row_2">
+                  <img
+                    src="./assets/restaurant3.jpg"
+                    class="restaurant3"
+                    alt="restaurant3"
+                  />
+                  <img
+                    src="./assets/restaurant4.jpg"
+                    class="restaurant4"
+                    alt="restaurant4"
+                 />
+                </div>
+            </div>
+        </section>
+
+
+        <section class="update_container">
+            <div class="update_text">
+                <h1 class="text_heading" style="text-align: center;">Stay Updated</h1>
+            </div>
+            <div class="forms">
+                <input type="email" placeholder="email@gmail.com">
+                <button class="primary_button">Get Updates</button>
+            </div>
+            
+        </section>
+
+        <section>
+            <div class="last_container">
+                <div class="image_last">
+                    <img src="./assets/background.jpeg" style="width: 900px; height:250px">
+                </div>
+                <div class="last_container_text">
+                <h4 class="text">When a man's stomach is full it makes no difference whether he is rich or poor</h4>
+                 </div>
+            </div>
+    </section>
+    </main>
+
+    <footer>
+        <h1 class="footer_text">zomato</h1>
+        <ul>
+          <li>Pricing</li>
+          <li>Terms and Conditions</li>
+          <li>Partnership</li>
+          <li>Career</li>
+          <li>Contact</li>
+        </ul>
+       
+      </footer>
+    
+    
+</body>
+</html>
